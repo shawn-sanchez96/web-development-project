@@ -17,20 +17,8 @@ It was created as part of the Front-End Web Development coursework at Western Go
 - CSS3
 - JavaScript
 
-## Project Structure
-
-web-development-project/
-│
-├── index.html
-├── denver.html
-├── boulder.html
-├── contact.html
-├── css/
-│   └── style.css
-└── js/
-    └── form.js
-
 ## Purpose
 
 The goal of this project was to demonstrate fundamental front-end web development skills including page layout, styling, JavaScript form validation, and organizing a website across multiple pages.
+
 
