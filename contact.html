@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Colorado</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/form.js" defer></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo-badge" aria-hidden="true">CO</div>
+        <h1>Contact Us</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="denver.html">Denver</a>
+        <a href="boulder.html">Boulder</a>
+        <a href="ftcollins.html">Ft. Collins</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://www.colorado.gov" target="_blank" rel="noopeners">Offical State Site</a>
+    </nav>
+
+    <!-- MAIN AREA -->
+    <main>
+        <aside class="info-card"
+            <h2>Get in Touch</h2>
+            <p>Fill out the form and we'll respond as soon as possible.</p>
+        </aside>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form id="contact-form">
+
+                <!-- First Name -->
+                <label for="firstName">First Name:</label><br>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+
+                <!-- Last Name -->
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <!-- Confirm Email -->
+                <label for="confirmEmail">Confirm Email:</label><br>
+                <input type="email" id="confirmEmail" name="confirmEmail" required><br><br>
+
+                <!-- Question -->
+                <label for="question">Your Question:</label><br>
+                <textarea id="question" name="question" rows="4" cols="40"></textarea><br><br>
+
+                <!-- Submit -->
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Colorado State - Contact Page</p>
+    </footer>
+    
+</body>
+</html>

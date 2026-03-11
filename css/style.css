@@ -1,0 +1,155 @@
+/* === Global Styles === */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Requirement: font-family */
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+p, ul, ol, table {
+    margin: 1em 0;
+}
+
+/* === Layout Structure === */
+header {
+    background-color: #e0e0e0;
+    padding: 20px; 
+    position: relative; /* Requirement: relative positioning */
+    top: 5px; /* Small offset to make the effect obvious */
+    text-align: center;
+}
+
+.logo-badge {
+    position: absolute; /* Requirement: absolute positioning */
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #b0b0b0;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+nav {
+    background-color: #d0d0d0;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-nav a { 
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+#main-nav a:hover {
+    color: #0066cc;
+    text-decoration: underline; /* Requirement: hover effect */
+    font-weight: bold; /* New line */
+}
+
+/* === Main Content === */
+main {
+    margin: 20px;
+}
+
+aside {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-right: 20px;
+    float: left; /* Requirement: float property */
+}
+
+aside ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: 290px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 6px;
+    text-align: center;
+}
+
+/* Example of class selector */
+.info-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Example of id selector */
+#state-quickfacts {
+    background-color: #fafafa;
+}
+
+/* === Footer === */
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Contact Form Styling */
+form {
+    background-color: #fafafa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical; /* lets user stretch vertically, not sideways */
+}
+
+form button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #004c99;
+}
