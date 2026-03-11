@@ -1,5 +1,36 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
-# WESTERN GOVERNORS UNIVERSITY 
-## D277 – FRONT-END WEB DEVELOPMENT
-Welcome to Front-End Web Development! 
-For specific task instructions and requirements for this assessment, please refer to the course page.
+# Front-End Web Development Project
+
+This project is a multi-page responsive website built using HTML, CSS, and JavaScript.  
+It was created as part of the Front-End Web Development coursework at Western Governors University.
+
+## Features
+
+- Multi-page website structure
+- Responsive layout and styling
+- Interactive form functionality using JavaScript
+- Organized CSS and JavaScript file structure
+- Navigation between multiple city pages
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Project Structure
+
+web-development-project/
+│
+├── index.html
+├── denver.html
+├── boulder.html
+├── contact.html
+├── css/
+│   └── style.css
+└── js/
+    └── form.js
+
+## Purpose
+
+The goal of this project was to demonstrate fundamental front-end web development skills including page layout, styling, JavaScript form validation, and organizing a website across multiple pages.
+
